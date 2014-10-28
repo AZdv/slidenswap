@@ -1,0 +1,36 @@
+.swapWrapper {
+	position:relative;
+	overflow:hidden;
+	width:100px;
+	height:100px;
+}
+
+/* Cpmtrp;;ers CSS */
+#slide-n-swap-controllers {
+	z-index:2;
+	position:absolute;
+	bottom: 2%;
+	display: none;
+}
+
+#slide-n-swap-controllers div {
+	z-index:2;
+	float:left;
+	background-color:#FFF;
+	border: 1px solid gray;
+	padding: 2px 3px 2px;
+	margin: 2px 1px;
+	border-radius: 5px;
+}
+
+#slide-n-swap-controllers div:hover {
+	cursor:pointer;
+	cursor:hand;
+
+}
+
+#slide-n-swap-controllers div#pause_cont {
+	font-size:12px;
+	font-weight:bold;
+	padding: 2px 3px 2px;
+}

@@ -1,0 +1,31 @@
+.slidenswap_form {
+	margin: 50px;
+}
+label.submit {
+	width: 110px;
+}
+fieldset {
+	border: 1px solid lightgray;
+	padding: 15px;
+	margin-bottom:15px;
+}
+fieldset:first-of-type label:first-of-type {
+	margin-top: 0;
+}
+label {
+	display: block;
+	margin-top:20px;
+}
+.image_preview {
+	margin-right: 15px;
+}
+
+fieldset.single_slide:first-of-type .remove_slide_wrapper {
+	display: none;
+}
+.remove_slide_wrapper {
+	width: 103px;
+}
+.shortcode_tip {
+	margin-top: 10px;
+}
