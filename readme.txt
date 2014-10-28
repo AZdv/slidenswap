@@ -24,7 +24,19 @@ Installing "SlideNSwap" can be done either by searching for "SlideNSwapgo" via t
 4. Go to SlideNSwap Settings and define your gallery
 5. Add the gallery via a shortcode (example: [slidenswap id="2" width="200px" height="200px"])
 
+== Frequently Asked Questions ==
+
+= How do I disable the controllers? =
+Example shortcode: [slidenswap id="2" width="200px" height="200px" controllers="false"]
+
+== Screenshots ==
+http://i.imgur.com/djBLc5i.png
+
 == Changelog ==
 
+= 1.0 =
+First version
+
+== Upgrade Notice ==
 = 1.0 =
 First version
