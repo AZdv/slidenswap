@@ -85,6 +85,7 @@ class slidenswap {
 			window.location='<?php echo ( admin_url( 'admin.php?page=slidenswap/includes/class-slidenswap.php' ) ); ?>';
 			</script>
 		<?php }	?>
+		<h2><?php _e( 'SlideNSwap Settings' , 'slidenswap' ) ?></h2>
 		<form method="POST" class="slidenswap_form">
 			<?php wp_nonce_field( $nonce_action ) ?>
 			<div id="slides_wrapper">
@@ -107,8 +108,8 @@ class slidenswap {
 							<img id="<?php echo $img_id ?>_preview-<?php echo $j ?>" class="image_preview" src="<?php echo wp_get_attachment_thumb_url( $image ) ?>" />
 							<?php $j++; ?>
 						<?php endforeach; ?>
-						<input id="<?php echo $img_id ?>_button" type="button" data-uploader_title="<?php echo __( 'Add images' , 'slidenswap' ) ?>" data-uploader_button_text="<?php echo  __( 'Use images' , 'slidenswap' ) ?>" class="image_upload_button button" value="<?php echo __( 'Add images' , 'slidenswap' ) ?>" />
-						<input id="<?php echo $img_id ?>_delete" type="button" class="image_delete_button button" value="<?php echo __( 'Remove image' , 'slidenswap' ) ?>" />
+						<input id="<?php echo $img_id ?>_button" type="button" data-uploader_title="<?php _e( 'Add images' , 'slidenswap' ) ?>" data-uploader_button_text="<?php _e( 'Use images' , 'slidenswap' ) ?>" class="image_upload_button button" value="<?php _e( 'Add images' , 'slidenswap' ) ?>" />
+						<input id="<?php echo $img_id ?>_delete" type="button" class="image_delete_button button" value="<?php _e( 'Remove image' , 'slidenswap' ) ?>" />
 						<input id="<?php echo $img_id ?>" class="image_data_field" type="hidden" name="<?php echo $img_name ?>" value="<?php echo $slide->images ?>"/><br />
 					</label>
 					<label class="remove_slide_wrapper">
