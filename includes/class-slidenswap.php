@@ -82,7 +82,7 @@ class slidenswap {
 		if ( isset( $_POST['_wpnonce'] ) && wp_verify_nonce( $_POST['_wpnonce'], $nonce_action ) && isset( $_POST['slides'] ) ) {
 			$this->update_slides( $_POST['slides'] ); ?>
 			<script type="text/javascript">
-			window.location='<?php echo ( admin_url( 'admin.php?page=slidenswap/includes/class-slidenswap.php' ) ); ?>';
+			window.location='<?php echo ( admin_url( 'admin.php?page=slidenswap-gallery/includes/class-slidenswap.php' ) ); ?>';
 			</script>
 		<?php }	?>
 		<h2><?php _e( 'SlideNSwap Settings' , 'slidenswap' ) ?></h2>
