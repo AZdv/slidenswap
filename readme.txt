@@ -1,5 +1,5 @@
 === slidenswap ===
-Contributors: Asaf Zamir
+Contributors: AZdv
 Tags: slidenswap, image gallery, image animation effect
 Requires at least: 3.0
 Tested up to: 4.1
